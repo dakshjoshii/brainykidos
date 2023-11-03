@@ -468,6 +468,10 @@ h6 {
     margin-bottom: 30px;
   }
 
+  #hero p {
+    font-size: 0.9rem;
+  }
+
   #hero .hero-img img {
     width: 70%;
   }
