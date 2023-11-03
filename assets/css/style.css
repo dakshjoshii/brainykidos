@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins&display=swap");
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -361,6 +361,10 @@ h6 {
 
 #hero h2 {
   margin: 10px 0 0 0;
+  font-size: 20px;
+}
+
+#hero p {
   font-size: 20px;
 }
 
@@ -791,6 +795,13 @@ section {
   overflow: hidden;
 }
 
+#team img {
+  border-radius: 5px;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
 .team .member .member-info {
   padding: 25px 15px;
   text-align: start;
@@ -819,6 +830,10 @@ section {
 
 .team .member:hover .social {
   opacity: 1;
+}
+
+.team .gallery-btn {
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
